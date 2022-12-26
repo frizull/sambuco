@@ -18415,8 +18415,8 @@ function eventTargetAgnosticAddListener(emitter, name, listener, flags) {
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
-var global = arguments[3];
 var process = require("3e34d6208a71ebcf");
+var global = arguments[3];
 "use strict";
 module.exports = Readable;
 /*<replacement>*/ var Duplex;
@@ -21212,8 +21212,8 @@ Object.defineProperty(Duplex.prototype, "destroyed", {
 // A bit simpler than readable streams.
 // Implement an async ._write(chunk, encoding, cb), and it'll handle all
 // the drain event emission and buffering.
-var global = arguments[3];
 var process = require("fc2b06efdce7fb99");
+var global = arguments[3];
 "use strict";
 module.exports = Writable;
 /* <replacement> */ function WriteReq(chunk, encoding, cb) {
@@ -22968,8 +22968,8 @@ internals.root = function() {
 module.exports = internals.root();
 
 },{"e1be158ea73ec4f6":"823Vh","65fa3cd2922229fe":"cX8ro","ad19b170822c074c":"qUDlv","38c79be724c45820":"bhFis","1243203f5c6f44f":"2s7Ie","7cce0e58b0d9fc50":"fx5rK","907a3598aee5895f":"2EQQ0","35077c7ae0c15dc9":"hUMEJ","3e91639c70b22483":"gT3ur","f4f14980f2c61dd9":"kzCPy","3df1ac06e2a18578":"eO8Hi","aecb5a7df72ee465":"1G8sx","de768c9b4797e12a":"5vSUr","e9e8cd6a7714cc15":"6wuQv","922d04e232ec7423":"515au","9c372345a084ad52":"bOg0w","f14e76c0d97de5c0":"iiCJo","dcb3f69f5c87ca04":"icH71"}],"823Vh":[function(require,module,exports) {
-var Buffer = require("ff4f7e1a551ebfc1").Buffer;
 var process = require("e4c3fa65dd0415fc");
+var Buffer = require("ff4f7e1a551ebfc1").Buffer;
 "use strict";
 // Load modules
 const Assert = require("c8e2935dd3165ac3");
@@ -25478,8 +25478,8 @@ exports.constants = {
 };
 
 },{"c68cb6f3686035fb":"8hjhE","50b1094e7e196561":"2WyL8","afcabb18486a98b4":"k1utz","9b584370721565c0":"busIB","aca2feb3573bcdda":"g38Hg","b0e12f61036b7bcc":"d4idn","a548b3f73656de4c":"hwD3y","8bde049ed02cf7eb":"jbRNy","fa28dc42bb6e9ae0":"9Rcg1","cdca26eb2fc438f0":"h9Rdh","b377ac95f3bf766a":"k3tsT"}],"8hjhE":[function(require,module,exports) {
-var global = arguments[3];
 var process = require("2ab51cdf24340f82");
+var global = arguments[3];
 "use strict";
 // limit of Crypto.getRandomValues()
 // https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
@@ -55888,8 +55888,8 @@ function compare(a, b) {
 }
 
 },{"14d6e6b772db8e26":"4Szbv","f379d18fb68269e0":"e2JgG","61589104f806787":"iaxu0","8bb2dad605b7952e":"3pDum","b30af8033fdd3088":"e594P","1fb4039d04b1ce94":"2WyL8","69ffa367a4de00d3":"fFkPV","ca85c57b4392017c":"eW7r9"}],"k3tsT":[function(require,module,exports) {
-var process = require("3c21e7e5feebbcaa");
 var global = arguments[3];
+var process = require("3c21e7e5feebbcaa");
 "use strict";
 function oldBrowser() {
     throw new Error("secure random number generation not supported by this browser\nuse chrome, FireFox or Internet Explorer 11");
