@@ -6,7 +6,7 @@ Cette application est une aide à l'économie d'énergie pour les gros consommat
 * Calculer la courbe de charge avec application du taux de contingentement.
 * Calculer la consommation mensuelle de référence et la consommation mensuelle contingentée.
 
-## Modes de fonctionnement
+## Calcul du contingement
 L'application offre les deux modes prévus par les ordonnances :
 
 * __Mode de calcul pour le contingentement immédiat__
@@ -39,6 +39,7 @@ L'application offre les deux modes prévus par les ordonnances :
     ````
     Cet exemple illustre le calcul nécessaire afin d'établir le contingent pour février 2024 :
 
+
     Février 2023
     ------------
 
@@ -54,13 +55,14 @@ L'application offre les deux modes prévus par les ordonnances :
 
     _Nota : Contrairement au contingement immédiat qui sont calculés par les gros consommateurs eux-même, les contingents sont attribués et notifiés par l'AES directement aux gros consommateurs._
 
+Les périodes de contingentement prévues dans l'annexe 2 sont consignées dans le fichier `quota_periods.json`.
 
 ## Cadre réglementaire
-[Mise en consultation des mesures prévues en cas de pénurie d’électricité](https://www.admin.ch/gov/fr/accueil/documentation/communiques.msg-id-91881.html)
+Au moment de la rédaction de ce document, les ordonnances suivantes sont en cours de consultation :
 
-[Ordonnance sur le contingentement immédiat de l’énergie électrique](https://www.newsd.admin.ch/newsd/message/attachments/74061.pdf)
-
-[Ordonnance sur le contingentement de l’énergie électrique](https://www.newsd.admin.ch/newsd/message/attachments/74055.pdf)
+* [Mise en consultation des mesures prévues en cas de pénurie d’électricité](https://www.admin.ch/gov/fr/accueil/documentation/communiques.msg-id-91881.html)
+* [Ordonnance sur le contingentement immédiat de l’énergie électrique](https://www.newsd.admin.ch/newsd/message/attachments/74061.pdf)
+* [Ordonnance sur le contingentement de l’énergie électrique](https://www.newsd.admin.ch/newsd/message/attachments/74055.pdf)
 
 
 ## Technique
